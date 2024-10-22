@@ -8,7 +8,7 @@ public class GetUserQuery {
     public GetUserQuery(IUserRepository userRepository){
         _userRepository = userRepository;
     }
-    public User Query(GetUserQueryParam param){
+    public User? Query(GetUserQueryParam param){
         return _userRepository.Get(param.ID);
     }
 }
