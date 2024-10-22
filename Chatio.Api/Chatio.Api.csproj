@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Chatio.Core\Chatio.Core.csproj" />
+    <ProjectReference Include="..\Chatio.Application\Chatio.Application.csproj" />
+    <ProjectReference Include="..\Chatio.Infrastructure\Chatio.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
