@@ -1,0 +1,6 @@
+@Chatio.Api_HostAddress = http://localhost:5177
+
+GET {{Chatio.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
